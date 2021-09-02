@@ -4,8 +4,8 @@
   "description": "target project for stable backend ORM schema",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index",
+    "start": "node app",
+    "dev": "nodemon app",
     "lint": "node ./node_modules/eslint/bin/eslint.js .",
     "lint-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
   },
@@ -37,12 +37,9 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.12"
-  },
-  "optionalDependencies": {
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-react": "^7.25.1"
+    "nodemon": "^2.0.12"
   }
 }
