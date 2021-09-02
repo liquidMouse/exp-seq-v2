@@ -1,0 +1,28 @@
+{
+    "env": {
+        "node": true,
+        "commonjs": true,
+        "es6": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedAraayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+        "no-console": "off",
+        "arrow-body-style": [
+            "error",
+            "as-needed",
+            {
+                "requireReturnForObjectLiteral": true
+            }
+        ],
+        "no-implicit-globals": "error"
+    }
+}

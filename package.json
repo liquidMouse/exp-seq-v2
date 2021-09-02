@@ -1,0 +1,46 @@
+{
+  "name": "sequelize-express-v2",
+  "version": "1.0.0",
+  "description": "target project for stable backend ORM schema",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "lint": "node ./node_modules/eslint/bin/eslint.js .",
+    "lint-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liquidMouse/exp-seq-v2.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "sequelize",
+    "pg",
+    "backend",
+    "api",
+    "sql"
+  ],
+  "author": "Denisov Oleg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liquidMouse/exp-seq-v2/issues"
+  },
+  "homepage": "https://github.com/liquidMouse/exp-seq-v2#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.5",
+    "sequelize-cli": "^6.2.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-react": "^7.25.1",
+    "nodemon": "^2.0.12"
+  }
+}
